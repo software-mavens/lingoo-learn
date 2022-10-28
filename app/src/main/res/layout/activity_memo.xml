@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:iandroid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    iandroid:layout_width="match_parent"
+    iandroid:layout_height="match_parent"
+    iandroid:background="@color/white"
+    tools:context=".MemoActivity"
+    >
+
+    <LinearLayout
+        iandroid:layout_width="match_parent"
+        iandroid:layout_height="wrap_content"
+        iandroid:layout_margin="10dp"
+        iandroid:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            iandroid:layout_width="match_parent"
+            iandroid:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            iandroid:layout_marginTop="20dp"
+            iandroid:backgroundTint="@color/white"
+            >
+
+            <RelativeLayout
+                iandroid:layout_width="match_parent"
+                iandroid:layout_height="wrap_content"
+                iandroid:orientation="horizontal"
+                iandroid:padding="20dp"
+                >
+                <TextView
+                    iandroid:layout_width="wrap_content"
+                    iandroid:layout_height="wrap_content"
+                    iandroid:text="Results: 30/50\nMemo"
+                    iandroid:textSize="20sp"
+                    iandroid:textColor="@color/black"
+                    />
+
+                <ImageView
+                    iandroid:layout_width="60dp"
+                    iandroid:layout_height="60dp"
+                    iandroid:layout_alignParentEnd="true"
+                    iandroid:src="@drawable/ic_baseline_star_24"
+                />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <ImageView
+            iandroid:layout_width="match_parent"
+            iandroid:layout_height="wrap_content"
+            iandroid:src="@drawable/image4"
+    </LinearLayout>
+</ScrollView>
